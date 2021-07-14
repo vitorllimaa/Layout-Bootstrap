@@ -1,0 +1,29 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
+header {
+    background-color: #da291c;
+    color: #fff;
+}
+
+header, header > .container {
+    min-height: 64px;
+}
+
+section nav {
+    background-color: #dedede;
+    padding: 2rem;
+}
+
+footer {
+    background-color: #313131;
+    padding: 1rem;
+    color: #fff;
+}
+
+@media (min-width: 576px) {
+    section, section > .row, section > .row [class^=col-],
+    section > .row nav{
+        height: calc(100vh - 260px);
+    }
+}
